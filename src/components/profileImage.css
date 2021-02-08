@@ -1,0 +1,17 @@
+.profile-image-container {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 9px 8px 39px 6px rgba(0, 0, 0, 0.62);
+  box-shadow: 9px 8px 39px 6px rgba(0, 0, 0, 0.62);
+  background: #99BDFF;
+}
+
+.profile-image {
+    max-width: 100%;
+    max-height: 100%;
+}

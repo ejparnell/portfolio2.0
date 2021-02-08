@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { name, title, subtitle, profileImage } from "./constants";
+import ProfileImage from "./components/ProfileImage";
+import NamePlate from "./components/NamePlate";
+import FindMe from "./components/FindMe";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="landing-content">
+        <ProfileImage profileImage={profileImage} />
+        <NamePlate title={title} subtitle={subtitle} />
+      </div>
+      <FindMe />
     </div>
   );
 }
