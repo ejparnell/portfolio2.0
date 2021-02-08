@@ -7,3 +7,7 @@
   border: none;
   background: none;
 }
+
+.scroll-down-button:hover {
+    color: #99BDFF;
+}
