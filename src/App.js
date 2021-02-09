@@ -7,7 +7,7 @@ import FindMe from "./components/FindMe";
 function App() {
   return (
     <div>
-      <div className="landing-content">
+      <div className="landing-content" id="homepage">
         <ProfileImage profileImage={profileImage} />
         <NamePlate title={title} subtitle={subtitle} />
       </div>
