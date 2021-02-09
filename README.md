@@ -1,1 +1,1 @@
-To see deployed site go [here](https://ejparnell.dev/)
+To see deployed site go [here](https://ejparnell.github.io/portfolio2.0/)
