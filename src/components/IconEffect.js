@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { animated, useSpring } from 'react-spring';
 
+// This effect was found @ https://www.joshwcomeau.com/react/boop/
 const IconEffect = ({ rotation = 0, timing = 150, children }) => {
 
     const [isBooped, setIsBooped] = useState(false);

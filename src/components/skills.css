@@ -1,0 +1,10 @@
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.skills-header {
+    text-align: center;
+    margin: 50px;
+}

@@ -3,6 +3,7 @@ import { name, title, subtitle, profileImage } from "./constants";
 import ProfileImage from "./components/ProfileImage";
 import NamePlate from "./components/NamePlate";
 import FindMe from "./components/FindMe";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <NamePlate title={title} subtitle={subtitle} />
       </div>
       <FindMe />
+      <Skills />
     </div>
   );
 }
