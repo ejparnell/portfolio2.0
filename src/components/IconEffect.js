@@ -7,6 +7,7 @@ const IconEffect = ({ rotation = 0, timing = 150, children }) => {
     const [isBooped, setIsBooped] = useState(false);
 
     const style = useSpring({
+        margin: '40px',
         display: 'inline-block',
         backfaceVisibility: 'hidden',
         transform: isBooped

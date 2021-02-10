@@ -1,8 +1,9 @@
 import React from "react";
+import "./svgStyles.css";
 
 const SVGjest = ({ height, width }) => {
   return (
-    <div>
+    <div className="svg-icon">
       <svg
         height={height}
         width={width}

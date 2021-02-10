@@ -1,8 +1,9 @@
 import React from "react";
+import "./svgStyles.css";
 
 const SVGhtml5 = ({ height, width }) => {
   return (
-    <div>
+    <div className="svg-icon">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width={width}

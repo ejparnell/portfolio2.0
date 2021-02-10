@@ -1,8 +1,9 @@
 import React from "react";
+import "./svgStyles.css";
 
 const SVGreact = ({ height, width }) => {
   return (
-    <div>
+    <div className="svg-icon">
       <svg
         height={height}
         viewBox="175.7 78 490.6 436.9"

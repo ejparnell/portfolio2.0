@@ -1,8 +1,9 @@
 import React from "react";
+import "./svgStyles.css";
 
 const SVGphp = ({ height, width }) => {
   return (
-    <div>
+    <div className="svg-icon">
       <svg
         width={width}
         height={height}
