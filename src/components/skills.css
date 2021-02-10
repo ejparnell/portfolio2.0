@@ -1,0 +1,16 @@
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.skills-container-phone-view {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.skills-header {
+    text-align: center;
+    margin: 50px;
+}
